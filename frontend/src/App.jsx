@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useState } from "react";
 import "./App.css";
 
-const API = "https://onefile-india-api.onrender.com/";
+const API = "https://onefile-india-api.onrender.com";
 
 function Metric({ label, value, note, tone = "blue" }) {
   return (
